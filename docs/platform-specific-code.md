@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
 
 `Platform.OS` will be `ios` when running on iOS and `android` when running on Android.
 
-There is also a `Platform.select` method available, that given an object containing Platform.OS as keys, returns the value for the platform you are currently running on.
+There is also a `Platform.select` method available, that gives an object containing Platform.OS as keys, returns the value for the platform you are currently running on.
 
 ```javascript
 import {Platform, StyleSheet} from 'react-native';
